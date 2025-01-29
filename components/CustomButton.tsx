@@ -6,7 +6,7 @@ interface ButtonProps {
   title: string;
   textStyle?: object;
   containerStyle?: object;
-  handlePress?: () => {};
+  handlePress?: () => void;
   isLoading?: boolean;
 }
 
